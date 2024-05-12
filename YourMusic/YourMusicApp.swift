@@ -10,9 +10,11 @@ import SwiftData
 
 @main
 struct YourMusicApp: App {
+    @StateObject var videoPlayerConfig = VideoPlayerConfig()
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            FavoriteItem.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +27,8 @@ struct YourMusicApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(videoPlayerConfig)
         }
         .modelContainer(sharedModelContainer)
     }

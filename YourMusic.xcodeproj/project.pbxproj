@@ -7,20 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD3D3C462BE6D12D0022D28D /* VideoPlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C452BE6D12D0022D28D /* VideoPlayerConfig.swift */; };
+		FD3D3C482BE6D1F80022D28D /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C472BE6D1F80022D28D /* VideoModel.swift */; };
+		FD3D3C4A2BE6D4D30022D28D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C492BE6D4D30022D28D /* SearchView.swift */; };
+		FD3D3C4C2BE6D51F0022D28D /* VideoThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C4B2BE6D51F0022D28D /* VideoThumbnailView.swift */; };
+		FD3D3C4E2BE6D53E0022D28D /* ChannelThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C4D2BE6D53E0022D28D /* ChannelThumbnailView.swift */; };
+		FD3D3C502BE6D5920022D28D /* PlaylistThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C4F2BE6D5920022D28D /* PlaylistThumbnailView.swift */; };
+		FD3D3C522BE6D6840022D28D /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C512BE6D6840022D28D /* InfoModel.swift */; };
+		FD3D3C552BE6D86A0022D28D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D3C542BE6D86A0022D28D /* VideoPlayerView.swift */; };
+		FD7077F82BF008E400E1FDEF /* RouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7077F72BF008E400E1FDEF /* RouteModel.swift */; };
+		FD731CB92BF0CED100F65669 /* FavoriteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD731CB82BF0CED100F65669 /* FavoriteItemView.swift */; };
+		FD731CBD2BF13EE400F65669 /* AddFolderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD731CBC2BF13EE400F65669 /* AddFolderButtonView.swift */; };
+		FD731CBF2BF14BA300F65669 /* AddFavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD731CBE2BF14BA300F65669 /* AddFavoriteButtonView.swift */; };
+		FD9BF4082BE7857D00716317 /* APICallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BF4072BE7857D00716317 /* APICallManager.swift */; };
+		FD9BF40A2BE7A0BA00716317 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BF4092BE7A0BA00716317 /* PlaylistModel.swift */; };
+		FD9BF40C2BE7A21500716317 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BF40B2BE7A21500716317 /* ChannelModel.swift */; };
+		FDBF3F602BED3D5200B914E5 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF3F5F2BED3D5200B914E5 /* SoundManager.swift */; };
+		FDBF3F622BED5E0400B914E5 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF3F612BED5E0400B914E5 /* PlaylistView.swift */; };
+		FDBF3F642BED5E2A00B914E5 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF3F632BED5E2A00B914E5 /* ChannelView.swift */; };
 		FDC354BC2BE6C87300B9DD3F /* YourMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354BB2BE6C87300B9DD3F /* YourMusicApp.swift */; };
-		FDC354BE2BE6C87300B9DD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354BD2BE6C87300B9DD3F /* ContentView.swift */; };
-		FDC354C02BE6C87300B9DD3F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354BF2BE6C87300B9DD3F /* Item.swift */; };
+		FDC354BE2BE6C87300B9DD3F /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354BD2BE6C87300B9DD3F /* FavoriteView.swift */; };
+		FDC354C02BE6C87300B9DD3F /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354BF2BE6C87300B9DD3F /* FavoriteItem.swift */; };
 		FDC354C22BE6C87600B9DD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC354C12BE6C87600B9DD3F /* Assets.xcassets */; };
 		FDC354C52BE6C87600B9DD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC354C42BE6C87600B9DD3F /* Preview Assets.xcassets */; };
+		FDC354CD2BE6C9E000B9DD3F /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354CC2BE6C9E000B9DD3F /* TabModel.swift */; };
+		FDC354D02BE6CA9E00B9DD3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354CF2BE6CA9E00B9DD3F /* HomeView.swift */; };
+		FDC354D22BE6CF2200B9DD3F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC354D12BE6CF2200B9DD3F /* BlurView.swift */; };
+		FDC778F42BEE8348007CD0F2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC778F32BEE8348007CD0F2 /* HeaderView.swift */; };
+		FDF564E02BEAA3C40022C013 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF564DF2BEAA3C30022C013 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD3D3C452BE6D12D0022D28D /* VideoPlayerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerConfig.swift; sourceTree = "<group>"; };
+		FD3D3C472BE6D1F80022D28D /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		FD3D3C492BE6D4D30022D28D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FD3D3C4B2BE6D51F0022D28D /* VideoThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoThumbnailView.swift; sourceTree = "<group>"; };
+		FD3D3C4D2BE6D53E0022D28D /* ChannelThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelThumbnailView.swift; sourceTree = "<group>"; };
+		FD3D3C4F2BE6D5920022D28D /* PlaylistThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistThumbnailView.swift; sourceTree = "<group>"; };
+		FD3D3C512BE6D6840022D28D /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		FD3D3C542BE6D86A0022D28D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		FD7077F72BF008E400E1FDEF /* RouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModel.swift; sourceTree = "<group>"; };
+		FD731CB82BF0CED100F65669 /* FavoriteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemView.swift; sourceTree = "<group>"; };
+		FD731CBC2BF13EE400F65669 /* AddFolderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFolderButtonView.swift; sourceTree = "<group>"; };
+		FD731CBE2BF14BA300F65669 /* AddFavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteButtonView.swift; sourceTree = "<group>"; };
+		FD9BF4072BE7857D00716317 /* APICallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallManager.swift; sourceTree = "<group>"; };
+		FD9BF4092BE7A0BA00716317 /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		FD9BF40B2BE7A21500716317 /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		FDB69CB92BEBBE82002B4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDBF3F5F2BED3D5200B914E5 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundManager.swift; path = ../../../../.Trash/SoundManager.swift; sourceTree = "<group>"; };
+		FDBF3F612BED5E0400B914E5 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		FDBF3F632BED5E2A00B914E5 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
 		FDC354B82BE6C87300B9DD3F /* YourMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC354BB2BE6C87300B9DD3F /* YourMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMusicApp.swift; sourceTree = "<group>"; };
-		FDC354BD2BE6C87300B9DD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FDC354BF2BE6C87300B9DD3F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FDC354BD2BE6C87300B9DD3F /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		FDC354BF2BE6C87300B9DD3F /* FavoriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItem.swift; sourceTree = "<group>"; };
 		FDC354C12BE6C87600B9DD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC354C42BE6C87600B9DD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDC354CC2BE6C9E000B9DD3F /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		FDC354CF2BE6CA9E00B9DD3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FDC354D12BE6CF2200B9DD3F /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		FDC778F32BEE8348007CD0F2 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = ../../../YourTube/YourTube/View/HeaderView.swift; sourceTree = "<group>"; };
+		FDF564DF2BEAA3C30022C013 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD3D3C532BE6D6E70022D28D /* ComponentView */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D3C4B2BE6D51F0022D28D /* VideoThumbnailView.swift */,
+				FD3D3C4D2BE6D53E0022D28D /* ChannelThumbnailView.swift */,
+				FD3D3C4F2BE6D5920022D28D /* PlaylistThumbnailView.swift */,
+				FDC778F32BEE8348007CD0F2 /* HeaderView.swift */,
+				FD731CB82BF0CED100F65669 /* FavoriteItemView.swift */,
+				FD731CBC2BF13EE400F65669 /* AddFolderButtonView.swift */,
+				FD731CBE2BF14BA300F65669 /* AddFavoriteButtonView.swift */,
+			);
+			path = ComponentView;
+			sourceTree = "<group>";
+		};
 		FDC354AF2BE6C87300B9DD3F = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +114,18 @@
 		FDC354BA2BE6C87300B9DD3F /* YourMusic */ = {
 			isa = PBXGroup;
 			children = (
+				FDB69CB92BEBBE82002B4361 /* Info.plist */,
+				FD3D3C532BE6D6E70022D28D /* ComponentView */,
+				FDC354CE2BE6CA8A00B9DD3F /* View */,
+				FDC354CB2BE6C92100B9DD3F /* Model */,
 				FDC354BB2BE6C87300B9DD3F /* YourMusicApp.swift */,
-				FDC354BD2BE6C87300B9DD3F /* ContentView.swift */,
-				FDC354BF2BE6C87300B9DD3F /* Item.swift */,
+				FDC354BF2BE6C87300B9DD3F /* FavoriteItem.swift */,
+				FD3D3C452BE6D12D0022D28D /* VideoPlayerConfig.swift */,
 				FDC354C12BE6C87600B9DD3F /* Assets.xcassets */,
 				FDC354C32BE6C87600B9DD3F /* Preview Content */,
+				FD9BF4072BE7857D00716317 /* APICallManager.swift */,
+				FDBF3F5F2BED3D5200B914E5 /* SoundManager.swift */,
+				FDF564DF2BEAA3C30022C013 /* Utility.swift */,
 			);
 			path = YourMusic;
 			sourceTree = "<group>";
@@ -68,6 +136,33 @@
 				FDC354C42BE6C87600B9DD3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDC354CB2BE6C92100B9DD3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDC354CC2BE6C9E000B9DD3F /* TabModel.swift */,
+				FD7077F72BF008E400E1FDEF /* RouteModel.swift */,
+				FD3D3C512BE6D6840022D28D /* InfoModel.swift */,
+				FD3D3C472BE6D1F80022D28D /* VideoModel.swift */,
+				FD9BF4092BE7A0BA00716317 /* PlaylistModel.swift */,
+				FD9BF40B2BE7A21500716317 /* ChannelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDC354CE2BE6CA8A00B9DD3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDC354CF2BE6CA9E00B9DD3F /* HomeView.swift */,
+				FDC354D12BE6CF2200B9DD3F /* BlurView.swift */,
+				FD3D3C492BE6D4D30022D28D /* SearchView.swift */,
+				FD3D3C542BE6D86A0022D28D /* VideoPlayerView.swift */,
+				FDBF3F612BED5E0400B914E5 /* PlaylistView.swift */,
+				FDBF3F632BED5E2A00B914E5 /* ChannelView.swift */,
+				FDC354BD2BE6C87300B9DD3F /* FavoriteView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +181,8 @@
 			dependencies = (
 			);
 			name = YourMusic;
+			packageProductDependencies = (
+			);
 			productName = YourMusic;
 			productReference = FDC354B82BE6C87300B9DD3F /* YourMusic.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +211,8 @@
 				Base,
 			);
 			mainGroup = FDC354AF2BE6C87300B9DD3F;
+			packageReferences = (
+			);
 			productRefGroup = FDC354B92BE6C87300B9DD3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,9 +239,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC354BE2BE6C87300B9DD3F /* ContentView.swift in Sources */,
-				FDC354C02BE6C87300B9DD3F /* Item.swift in Sources */,
+				FDC354BE2BE6C87300B9DD3F /* FavoriteView.swift in Sources */,
+				FD9BF40A2BE7A0BA00716317 /* PlaylistModel.swift in Sources */,
+				FDBF3F602BED3D5200B914E5 /* SoundManager.swift in Sources */,
+				FD3D3C4E2BE6D53E0022D28D /* ChannelThumbnailView.swift in Sources */,
+				FD3D3C4A2BE6D4D30022D28D /* SearchView.swift in Sources */,
+				FD3D3C522BE6D6840022D28D /* InfoModel.swift in Sources */,
+				FDC354CD2BE6C9E000B9DD3F /* TabModel.swift in Sources */,
+				FDC778F42BEE8348007CD0F2 /* HeaderView.swift in Sources */,
+				FDF564E02BEAA3C40022C013 /* Utility.swift in Sources */,
+				FD7077F82BF008E400E1FDEF /* RouteModel.swift in Sources */,
+				FD3D3C4C2BE6D51F0022D28D /* VideoThumbnailView.swift in Sources */,
+				FD731CB92BF0CED100F65669 /* FavoriteItemView.swift in Sources */,
+				FDC354C02BE6C87300B9DD3F /* FavoriteItem.swift in Sources */,
+				FD3D3C482BE6D1F80022D28D /* VideoModel.swift in Sources */,
+				FD3D3C502BE6D5920022D28D /* PlaylistThumbnailView.swift in Sources */,
+				FDBF3F642BED5E2A00B914E5 /* ChannelView.swift in Sources */,
+				FD9BF40C2BE7A21500716317 /* ChannelModel.swift in Sources */,
+				FDC354D02BE6CA9E00B9DD3F /* HomeView.swift in Sources */,
+				FDBF3F622BED5E0400B914E5 /* PlaylistView.swift in Sources */,
 				FDC354BC2BE6C87300B9DD3F /* YourMusicApp.swift in Sources */,
+				FDC354D22BE6CF2200B9DD3F /* BlurView.swift in Sources */,
+				FD3D3C462BE6D12D0022D28D /* VideoPlayerConfig.swift in Sources */,
+				FD9BF4082BE7857D00716317 /* APICallManager.swift in Sources */,
+				FD731CBD2BF13EE400F65669 /* AddFolderButtonView.swift in Sources */,
+				FD731CBF2BF14BA300F65669 /* AddFavoriteButtonView.swift in Sources */,
+				FD3D3C552BE6D86A0022D28D /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +401,7 @@
 				DEVELOPMENT_TEAM = 3SY32WDY4S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YourMusic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +431,7 @@
 				DEVELOPMENT_TEAM = 3SY32WDY4S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YourMusic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
