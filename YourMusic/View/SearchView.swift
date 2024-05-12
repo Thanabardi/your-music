@@ -77,7 +77,7 @@ struct SearchView: View {
                 if (!searchResult.isEmpty || !isSearchFullScreen) {
                     ScrollView {
                         LazyVStack(spacing: 20) {
-                            ForEach(searchResult, id: \.id) { result in
+                            ForEach(searchResult) { result in
                                 if (result.type == InfoType.video.rawValue) {
                                     Button(
                                         action: {

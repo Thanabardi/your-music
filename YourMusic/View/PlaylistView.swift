@@ -74,7 +74,7 @@ struct PlaylistView: View {
                 
                 ScrollView {
                     LazyVStack(spacing: 20) {
-                        ForEach(playlist!.videos, id: \.id) { video in
+                        ForEach(playlist!.videos) { video in
                             Button(
                                 action: {
                                     videoPlayerConfig.currentPlaylist = playlist!.videos

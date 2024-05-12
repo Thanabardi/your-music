@@ -85,7 +85,7 @@ struct ChannelView: View {
                     }
                     ScrollView {
                         LazyVStack(spacing: 20) {
-                            ForEach(channel!.playlist, id: \.id) { data in
+                            ForEach(channel!.playlist) { data in
                                 if (data.type == InfoType.video.rawValue) {
                                     Button(
                                         action: {
